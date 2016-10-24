@@ -1,0 +1,43 @@
+class Recurso() {
+
+  private int alimentos;
+  private int madera;
+  private int piedras;
+  
+  public int getAlimentos() {
+  
+    return alimentos;
+  
+  }
+  
+  public int getMadera() {
+  
+    return madera;
+  
+  }
+  
+  public int getPiedras() {
+  
+    return piedras;
+  
+  }
+  
+  public void setAlimentos(int valor) {
+  
+    alimentos = valor;
+  
+  }
+  
+  public void setMadera(int valor) {
+  
+    madera = valor;
+  
+  }
+  
+  public void setPiedras(int valor) {
+  
+    piedras = valor;
+  
+  }
+
+}
