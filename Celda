@@ -1,0 +1,6 @@
+class Celda() {
+
+  private int x;
+  private int y;
+
+}
