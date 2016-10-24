@@ -1,0 +1,55 @@
+class Personaje() {
+
+  private Celda soldado;
+  private Celda paisano;
+  private int vida;
+  private int armadura;
+  private int ataque;
+  private int capacidadRecoleccion;
+
+  public Personaje() {
+  
+    vida = 0;
+    armadura = 0;
+    ataque = 0;
+    capacidadRecoleccion = 0;
+    
+  }
+    
+  public int getVida() {
+  
+    return vida;
+  
+  }
+  
+  public int getArmadura() {
+  
+    return armadura;
+  
+  }
+  
+  public int getAtaque() {
+  
+    return ataque;
+  
+  }
+  
+  public void setVida(int valor) {
+  
+    vida = valor;
+  
+  }
+  
+  poublic void setArmadura(int valor) {
+  
+    armadura = valor;
+  
+  }
+  
+  public void setAtaque(int valor) {
+  
+    ataque = valor;
+      
+  }
+
+}
