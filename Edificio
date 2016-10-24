@@ -1,7 +1,11 @@
+import java.util.ArrayList;
+
 class Edificio() {
 
-  private Claves casas;
-  private Claves ciudadelas;
-  private Claves cuarteles;
+  private Celdas casas;
+  private Celdas ciudadelas;
+  private Celdas cuarteles;
+  private int vida;
+  private ArrayList<>() costeRecursos = new ArrayList<>();
 
 }
