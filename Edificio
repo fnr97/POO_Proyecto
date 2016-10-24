@@ -2,10 +2,70 @@ import java.util.ArrayList;
 
 class Edificio() {
 
-  private Celdas casas;
-  private Celdas ciudadelas;
-  private Celdas cuarteles;
+  private Celda casa;
+  private Celda ciudadela;
+  private Celda cuartel;
   private int vida;
   private ArrayList<>() costeRecursos = new ArrayList<>();
+  
+  public Celdas getCasa() {
+  
+    return casa;
+  
+  }
+  
+  public Celdas getCiudadela() {
+  
+    return ciudadela;
+  
+  }
+  
+  public Celdas getCuartel() {
+  
+    return cuartel;
+  
+  }
+  
+  public int getVida() {
+  
+    return vida;
+  
+  }
+  
+  public ArrayList<>() getCosteRecursos() {
+  
+    return costeRecursos;
+  
+  }
+  
+  public void setCasa(Celda valor) {
+   
+    casa = valor;
 
+  }
+  
+  public void setCiudadela(Celda valor) {
+   
+    ciudadela = valor;
+
+  }
+  
+  public void setCuartel(Celda valor) {
+   
+    cuartel = valor;
+
+  }
+  
+  public void setVida(int valor) {
+   
+    vida = valor;
+
+  }
+  
+  public void setCosteRecursos(ArrayList<>() valor) {
+   
+    costeRecursos = valor;
+
+  }
+  
 }
