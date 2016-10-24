@@ -1,0 +1,7 @@
+class Edificio() {
+
+  private Claves casas;
+  private Claves ciudadelas;
+  private Claves cuarteles;
+
+}
