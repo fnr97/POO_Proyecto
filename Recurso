@@ -1,4 +1,4 @@
-/* ¿Dónde le damos valores a los recursos? ¿Son necesarios los setters?*/
+/* ¿Dónde (clase) le damos valores a los recursos? */
 
 public class Recurso() {
 
@@ -42,9 +42,9 @@ public class Recurso() {
   
   }
   
-  /* SETTERS */
-  
   /* METHODS */
+  
+  /* ¿Una única función o tres? */
   
   public int almacenarAlimentosEnCiudadela(int valorAlimentos) {
   
