@@ -1,5 +1,7 @@
 class Personaje() {
 
+/* El juego dispondrá de dos tipos de personajes: paisanos y soldados.*/
+
   private Celda soldado;
   private Celda paisano;
   private int vida;
@@ -15,6 +17,31 @@ class Personaje() {
     capacidadRecoleccion = 0;
     
   }
+  
+  /* Los personajes tendrán ciertas propiedades que definirán su salud, armadura, y ataque. 
+  Los paisanos pueden recolectar madera de los bosques, piedra de las canteras, y comida de los arbustos.*/
+  
+  /*public Soldado() {
+  
+    salud = 0;
+    armadura = 0;
+    ataque = 0;
+  
+  }
+  
+  public Paisano() {
+  
+    salud = 0;
+    armadura = 0;
+    ataque = 0;
+    
+    /* ? */
+    
+    recursosMadera = 0;
+    recursosPiedra = 0;
+    recursosComida = 0;
+  
+  }*/
     
   public int getVida() {
   
