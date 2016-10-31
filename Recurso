@@ -1,3 +1,5 @@
+/* ¿Dónde le damos valores a los recursos? ¿Son necesarios los setters?*/
+
 class Recurso() {
 
   private int alimentos;
