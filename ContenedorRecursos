@@ -1,6 +1,6 @@
 /* ¿Dónde (clase) le damos valores a los recursos? */
 
-public class Recurso() {
+public class ContenedorRecursos() {
 
   private int alimentos;
   private int madera;
@@ -46,25 +46,6 @@ public class Recurso() {
   
   /* ¿Una única función o tres? */
   
-  public int almacenarAlimentosEnCiudadela(int valorAlimentos) {
-  
-    this.alimentos += valorAlimentos;
-    setAlimentos(this.alimentos);
-  
-  }
 
-  public int almacenarMaderaEnCiudadela(int valorMadera) {
-
-    this.madera += valorMadera;
-    setMadera(this.madera);
-
-    }
-    
-  public int almacenarPiedrasEnCiudadela(int valorPiedras) {
-
-    this.piedras += valorPiedras;
-    setPiedras(this.piedras);
-
-  }
   
 }
