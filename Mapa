@@ -1,0 +1,9 @@
+
+import java.util.HasMap;
+
+public class Mapa() {
+  
+  private HashMap mapa = new HashMap();
+
+
+}
