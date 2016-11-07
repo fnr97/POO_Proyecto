@@ -1,0 +1,56 @@
+
+
+public class Recurso() {
+
+  private int bosque;
+  private int arbusto;
+  private int cantera;
+  
+  
+  public getBosque() {
+    return bosque;
+  }
+  
+  public getArbusto() {
+    return arbusto;
+  }
+  
+  public getCantera() {
+    return cantera;
+  }
+  
+  public void setBosque (int valor){
+    bosque = valor;
+  }
+  
+  public void setArbusto(int valor){
+    arbusto = valor;
+  }
+  
+  public void setCantera(int valor){
+    cantera = valor;
+  }
+  
+  
+    public int almacenarAlimentosEnCiudadela(int valorAlimentos) {
+  
+    this.alimentos += valorAlimentos;
+    setAlimentos(this.alimentos);
+  
+  }
+
+  public int almacenarMaderaEnCiudadela(int valorMadera) {
+
+    this.madera += valorMadera;
+    setMadera(this.madera);
+
+    }
+    
+  public int almacenarPiedrasEnCiudadela(int valorPiedras) {
+
+    this.piedras += valorPiedras;
+    setPiedras(this.piedras);
+
+  }
+
+}
