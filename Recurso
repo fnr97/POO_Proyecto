@@ -1,6 +1,6 @@
 
 
-public class Recurso() {
+public class Recurso {
 
   private int bosque;
   private int arbusto;
