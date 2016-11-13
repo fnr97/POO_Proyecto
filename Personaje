@@ -1,4 +1,4 @@
-public class Personaje() {
+public class Personaje {
 
 /* El juego dispondrá de dos tipos de personajes: paisanos y soldados.*/
 
