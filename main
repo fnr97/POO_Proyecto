@@ -31,7 +31,7 @@ public class Juego {
           break;         
           
         default:
-          System.out.println("Comando incorrecta");
+          System.out.println("Comando incorrecto.");
       
       }
       
@@ -39,4 +39,29 @@ public class Juego {
 
   }
 
+}
+
+package age_of_empires;
+import java.util.ArrayList;
+
+public class Age_of_Empires {
+
+
+    public static void main(String[] args) {
+
+        Mapa mapaJuego = new Mapa(2,2);
+        //char[][] data = {{'a','b'},{'c','d'}};
+        //Mapa mapaPrueba = new Mapa(data);
+        char letra[] = {'a'};
+        String str = new String(letra);
+        
+        for(int i = 0; i < mapaJuego.getMapa().size(); i++) {
+
+            for(int j = 0; j < mapaJuego.getMapa().get(0).size(); j++) {
+
+                mapaJuego.add(str);
+        
+            }
+        }
+    }
 }
