@@ -6,6 +6,21 @@ public class ContenedorRecursos() {
   private int madera;
   private int piedras;
   
+  public ContenedorRecursos(){
+        
+        alimentos = 0;
+        madera = 0;
+        piedras = 0;
+    } 
+    
+    public ContenedorRecursos(int valorAlimentos, int valorMadera, int valorPiedras){
+        
+        alimentos = valorAlimentos;
+        madera = valorMadera;
+        piedras = valorPiedras;
+        
+    }
+  
   public int getAlimentos() {
   
     return alimentos;
