@@ -1,9 +1,125 @@
 
-import java.util.HasMap;
+package age_of_empires;
+import java.util.ArrayList;
 
-public class Mapa() {
-  
-  private HashMap mapa = new HashMap();
+public class Mapa {
 
+    private ArrayList<ArrayList<String>> mapa = new ArrayList<>();
+    
+    // Creamos el mapa que inicializaremos desde el main().
+    public Mapa(int filas, int columnas) {
+        
+        int i, j;
+
+            for(i = 0; i < filas; i++) {
+
+                mapa.add(new ArrayList<>());
+
+                for(j = 0; j < columnas; j++) {
+
+                    mapa.get(i).add(null);
+
+                }    
+        }  
+    }
+    
+    public ArrayList<ArrayList<String>> getMapa() {
+        
+        return mapa;
+        
+    }
+
+    /*public Mapa(ArrayList<ArrayList<String>> s) {
+        
+        int i, j;
+        
+        for(i = 0; i < s.size(); i++) {
+            
+            ArrayList<String> map = new ArrayList<>();
+            mapa.add(map);
+            
+            for(j = 0; j < s.get(0).size(); j++) {
+                
+                map.add(s.get(i).get(j));
+                
+            }
+        }       
+    }*/
+    
+    public Mapa(Mapa m) {
+        
+        int i, j;
+        
+        for(i = 0; i < m.getMapa().size(); i++) {
+            
+            ArrayList<String> map = new ArrayList<>();
+            mapa.add(map);
+
+            for(j = 0; j < m.getMapa().get(0).size(); j++) {
+
+                map.add(m.getMapa().get(i).get(j));
+                
+            }
+
+        }
+        
+    }
+    
+    public String[] obtenerFila(int i) {
+        
+        String[] fila;
+        fila = new String[mapa.get(0).size()];
+        
+        int j;
+        
+        for(j = 0; j < mapa.get(0).size(); j++) {
+            
+            fila[j] = mapa.get(i).get(j);
+            
+        }
+        
+        return fila;
+        
+    }
+    
+    public String[] obtenerColumna(int j) {
+        
+        String[] columna;
+        columna = new String[mapa.size()];
+        
+        int i;
+        
+        for(i = 0; i < mapa.size(); i++) {
+            
+            columna[i] = mapa.get(i).get(j);
+            
+        }
+        
+        return columna;
+        
+    }
+    
+    @Override
+    public String toString() {
+        
+        String devuelveMapa = "\n";
+        
+        int fila, columna;
+      
+            for(fila = 0; fila < mapa.size(); fila++) {
+                
+                for(columna = 0; columna < mapa.get(0).size(); columna++) {
+                    
+                    devuelveMapa += "\t" + mapa.get(fila).get(columna);
+                    
+                }
+                
+            devuelveMapa += "\n";
+            
+        }
+            
+        return devuelveMapa;
+
+    }
 
 }
