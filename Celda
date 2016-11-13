@@ -1,4 +1,4 @@
-public class Celda() {
+public class Celda {
 
   private int x;
   private int y;
