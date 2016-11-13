@@ -1,6 +1,6 @@
 /* ¿Dónde (clase) le damos valores a los recursos? */
 
-public class ContenedorRecursos() {
+public class ContenedorRecursos {
 
   private int alimentos;
   private int madera;
