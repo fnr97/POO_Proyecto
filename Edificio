@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Edificio() {
+public class Edificio {
 
   private Celda casa;
   private Celda ciudadela;
